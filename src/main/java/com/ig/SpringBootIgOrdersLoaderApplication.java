@@ -12,7 +12,7 @@ import com.ig.service.StorageService;
 public class SpringBootIgOrdersLoaderApplication implements CommandLineRunner {
 
 	@Resource
-	StorageService storageService;
+	StorageService storageService; // StorageService is a service that is used to store the files
     
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SpringBootIgOrdersLoaderApplication.class, args);
